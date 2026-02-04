@@ -1,6 +1,7 @@
 # $X coin
 
-<img width="297" height="288" alt="image" src="https://github.com/user-attachments/assets/804ebaac-54db-4045-b67f-a6a788e9834d" />
+![Airbrush-image-extender (60)](https://github.com/user-attachments/assets/d18fd3b3-6859-4bb2-98a2-969f5c1b4581)
+
 
 Official Community: https://x.com/i/communities/2019111414649024888
 
