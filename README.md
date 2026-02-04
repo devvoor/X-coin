@@ -1,4 +1,8 @@
-# $x Flywheel
+# $X coin
+
+<img width="297" height="288" alt="image" src="https://github.com/user-attachments/assets/804ebaac-54db-4045-b67f-a6a788e9834d" />
+
+Official Community: https://x.com/i/communities/2019111414649024888
 
 > **⚠️ IMPORTANT DISCLAIMER:**  
 > This is an **UNOFFICIAL, COMMUNITY-DRIVEN EXPERIMENT**.  
