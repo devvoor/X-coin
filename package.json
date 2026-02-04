@@ -1,0 +1,61 @@
+{
+  "name": "x-coin-flywheel",
+  "version": "0.1.0",
+  "description": "$x token flywheel - community experiment for fee-driven buybacks + X ads amplification (NOT official, NOT affiliated with X Corp)",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node --loader tsx dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src scripts tests --ext .ts",
+    "lint:fix": "eslint src scripts tests --ext .ts --fix",
+    "format": "prettier --write \"src/**/*.ts\" \"scripts/**/*.ts\" \"tests/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\" \"scripts/**/*.ts\" \"tests/**/*.ts\"",
+    "typecheck": "tsc --noEmit",
+    "simulate": "tsx scripts/simulate-epoch.ts",
+    "epoch:once": "tsx scripts/run-epoch-once.ts",
+    "fetch-fees": "tsx scripts/fetch-fees.ts",
+    "snapshot": "tsx scripts/snapshot-balances.ts",
+    "webhook": "tsx src/server/webhook.ts"
+  },
+  "keywords": [
+    "solana",
+    "crypto",
+    "token",
+    "flywheel",
+    "community",
+    "automation"
+  ],
+  "author": "Community Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.91.4",
+    "@solana/spl-token": "^0.4.1",
+    "fastify": "^4.26.0",
+    "pino": "^8.19.0",
+    "pino-pretty": "^10.3.1",
+    "prom-client": "^15.1.0",
+    "zod": "^3.22.4",
+    "dotenv": "^16.4.1",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.2",
+    "@vitest/coverage-v8": "^1.2.2"
+  }
+}
