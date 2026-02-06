@@ -2,8 +2,7 @@
 
 ![Airbrush-image-extender (60)](https://github.com/user-attachments/assets/d18fd3b3-6859-4bb2-98a2-969f5c1b4581)
 
-
-[Official Community: https://x.com/i/communities/2019111414649024888](https://x.com/Xcoinsolana)
+https://x.com/Xcoinsolana
 
 > **⚠️ IMPORTANT DISCLAIMER:**  
 > This is an **UNOFFICIAL, COMMUNITY-DRIVEN EXPERIMENT**.  
